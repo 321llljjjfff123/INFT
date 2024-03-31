@@ -1,0 +1,22 @@
+[package]
+name = "birds_nft"
+version = "1.0.0"
+authors = []
+
+[addresses]
+birds_nft = "0xa69ddda382a348869159f1ed42eb2fd978a5a9b5e741a5f144be4b2ff9ffd069"
+
+[dev-addresses]
+
+[dependencies.AptosTokenObjects]
+git = "https://gitee.com/WGB5445/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+
+[dependencies.AptosFramework]
+git = "https://gitee.com/WGB5445/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
